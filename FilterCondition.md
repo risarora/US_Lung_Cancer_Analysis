@@ -76,3 +76,12 @@ TobacoUsage_pd_Yearonly['YEAR'].value_counts()
 
 #Get Frequency Counts of a Column
 TobacoUsage_pd_Yearonly = TobacoUsage_pd[TobacoUsage_pd.YEAR.isin(TobacoUsage_pd['YEAR'].value_counts()[TobacoUsage_pd['YEAR'].value_counts()>265].index.tolist())]
+
+
+#Filter Based on two columns
+TobacoUsage_pd_Yearonly[(TobacoUsage_pd_Yearonly['LocationAbbr']=='AL' ) & (TobacoUsage_pd_Yearonly['YEAR']=='2016')]
+
+
+https://stackoverflow.com/questions/22086116/how-do-you-filter-pandas-dataframes-by-multiple-columns
+males = df[(df[Gender]=='Male') & (df[Year]==2014)]
+
