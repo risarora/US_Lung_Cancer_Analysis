@@ -85,3 +85,7 @@ TobacoUsage_pd_Yearonly[(TobacoUsage_pd_Yearonly['LocationAbbr']=='AL' ) & (Toba
 https://stackoverflow.com/questions/22086116/how-do-you-filter-pandas-dataframes-by-multiple-columns
 males = df[(df[Gender]=='Male') & (df[Year]==2014)]
 
+
+
+
+http://leportella.com/cheatlist/2018/05/20/models-cheat-list.html
