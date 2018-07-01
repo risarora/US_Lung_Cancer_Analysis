@@ -1,0 +1,301 @@
+YEAR,LocationDesc,StateCode,Data_Value,Lung Cancer
+2011,Alabama,AL,24.3,4240
+2011,Alaska,AK,22.9,380
+2011,Arizona,AZ,19.3,3820
+2011,Arkansas,AR,27,2660
+2011,California,CA,13.7,17660
+2011,Colorado,CO,18.3,2250
+2011,Connecticut,CT,17.1,2680
+2011,Delaware,DE,21.8,780
+2011,Florida,FL,19.3,17150
+2011,Georgia,GA,21.2,6410
+2011,Hawaii,HI,16.8,780
+2011,Idaho,ID,17.2,870
+2011,Illinois,IL,20.9,9210
+2011,Indiana,IN,25.6,5520
+2011,Iowa,IA,20.4,2480
+2011,Kansas,KS,22,1990
+2011,Kentucky,KY,29,4860
+2011,Louisiana,LA,25.7,3630
+2011,Maine,ME,22.8,1400
+2011,Maryland,MD,19.1,3960
+2011,Massachusetts,MA,18.2,4970
+2011,Michigan,MI,23.3,8140
+2011,Minnesota,MN,19.1,3340
+2011,Mississippi,MS,26,2430
+2011,Missouri,MO,25,5470
+2011,Montana,MT,22.1,750
+2011,Nebraska,NE,20,1270
+2011,Nevada,NV,22.9,1510
+2011,New Hampshire,NH,19.4,1110
+2011,New Jersey,NJ,16.8,6210
+2011,New Mexico,NM,21.5,980
+2011,New York,NY,18.1,14200
+2011,North Carolina,NC,21.8,7300
+2011,North Dakota,ND,21.9,420
+2011,Ohio,OH,25.1,10060
+2011,Oklahoma,OK,26.1,3270
+2011,Oregon,OR,19.7,2860
+2011,Pennsylvania,PA,22.4,10900
+2011,Rhode Island,RI,20,880
+2011,South Carolina,SD,23.1,3900
+2011,South Dakota,SD,23,580
+2011,Tennessee,TN,23,5870
+2011,Texas,TX,19.2,13880
+2011,Utah,UT,11.8,630
+2011,Vermont,VT,19.1,360
+2011,Virginia,VA,20.9,400
+2011,Washington,WA,17.5,3090
+2011,West Virginia,WV,28.6,1480
+2011,Wisconsin,WI,20.9,2940
+2011,Wyoming,WY,23,260
+2012,Alabama,AL,23.8,1090
+2012,Alaska,AK,20.5,70
+2012,Arizona,AZ,17.1,1650
+2012,Arkansas,AR,25,570
+2012,California,CA,12.6,9250
+2012,Colorado,CO,17.7,1470
+2012,Connecticut,CT,16,1290
+2012,Delaware,DE,19.7,280
+2012,Florida,FL,17.7,5450
+2012,Georgia,GA,20.4,2150
+2012,Hawaii,HI,14.6,280
+2012,Idaho,ID,16.4,400
+2012,Illinois,IL,18.6,2460
+2012,Indiana,IN,24,1450
+2012,Iowa,IA,18.1,850
+2012,Kansas,KS,19.4,610
+2012,Kentucky,KY,28.3,1370
+2012,Louisiana,LA,24.8,810
+2012,Maine,ME,20.3,480
+2012,Maryland,MD,16.2,1420
+2012,Massachusetts,MA,16.4,2190
+2012,Michigan,MI,23.3,2700
+2012,Minnesota,MN,18.8,1130
+2012,Mississippi,MS,24,510
+2012,Missouri,MO,23.9,1280
+2012,Montana,MT,19.7,320
+2012,Nebraska,NE,19.7,380
+2012,Nevada,NV,18.1,510
+2012,New Hampshire,NH,17.2,1130
+2012,New Jersey,NJ,17.3,5990
+2012,New Mexico,NM,19.3,1090
+2012,New York,NY,16.2,13620
+2012,North Carolina,NC,20.9,7950
+2012,North Dakota,ND,21.2,460
+2012,Ohio,OH,23.3,3030
+2012,Oklahoma,OK,23.3,750
+2012,Oregon,OR,17.9,1290
+2012,Pennsylvania,PA,21.4,3470
+2012,Rhode Island,RI,17.4,860
+2012,South Carolina,SD,22.5,4270
+2012,South Dakota,SD,22,620
+2012,Tennessee,TN,24.9,1640
+2012,Texas,TX,18.2,4020
+2012,Utah,UT,10.6,780
+2012,Vermont,VT,16.5,220
+2012,Virginia,VA,19,2150
+2012,Washington,WA,17.2,2140
+2012,West Virginia,WV,28.2,2070
+2012,Wisconsin,WI,20.4,1370
+2012,Wyoming,WY,21.8,150
+2013,Alabama,AL,21.5,1300
+2013,Alaska,AK,22.6,90
+2013,Arizona,AZ,16.3,1400
+2013,Arkansas,AR,25.9,530
+2013,California,CA,12.5,8530
+2013,Colorado,CO,17.7,1310
+2013,Connecticut,CT,15.5,1080
+2013,Delaware,DE,19.6,300
+2013,Florida,FL,16.8,5330
+2013,Georgia,GA,18.8,2360
+2013,Hawaii,HI,13.3,380
+2013,Idaho,ID,17.2,420
+2013,Illinois,IL,18,2480
+2013,Indiana,IN,21.9,1470
+2013,Iowa,IA,19.5,980
+2013,Kansas,KS,20,800
+2013,Kentucky,KY,26.5,1540
+2013,Louisiana,LA,23.5,770
+2013,Maine,ME,20.2,440
+2013,Maryland,MD,16.4,1530
+2013,Massachusetts,MA,16.6,1840
+2013,Michigan,MI,21.4,2900
+2013,Minnesota,MN,18,1020
+2013,Mississippi,MS,24.8,550
+2013,Missouri,MO,22.1,1500
+2013,Montana,MT,19,250
+2013,Nebraska,NE,18.5,460
+2013,Nevada,NV,19.4,440
+2013,New Hampshire,NH,16.2,1150
+2013,New Jersey,NJ,15.7,5960
+2013,New Mexico,NM,19.1,1050
+2013,New York,NY,16.6,13480
+2013,North Carolina,NC,20.3,8040
+2013,North Dakota,ND,21.2,460
+2013,Ohio,OH,23.4,2960
+2013,Oklahoma,OK,23.7,770
+2013,Oregon,OR,17.3,1410
+2013,Pennsylvania,PA,21,3890
+2013,Rhode Island,RI,17.4,870
+2013,South Carolina,SD,22,4390
+2013,South Dakota,SD,19.6,620
+2013,Tennessee,TN,24.3,1900
+2013,Texas,TX,15.9,3930
+2013,Utah,UT,10.3,720
+2013,Vermont,VT,16.6,220
+2013,Virginia,VA,19,2380
+2013,Washington,WA,16.1,2350
+2013,West Virginia,WV,27.3,2100
+2013,Wisconsin,WI,18.7,1250
+2013,Wyoming,WY,20.6,130
+2014,Alabama,AL,21.1,4160
+2014,Alaska,AK,19.9,430
+2014,Arizona,AZ,16.5,4280
+2014,Arkansas,AR,24.7,2660
+2014,California,CA,12.8,18780
+2014,Colorado,CO,15.7,2540
+2014,Connecticut,CT,15.4,2730
+2014,Delaware,DE,19.9,790
+2014,Florida,FL,17.6,17960
+2014,Georgia,GA,17.4,6540
+2014,Hawaii,HI,14.1,890
+2014,Idaho,ID,15.9,960
+2014,Illinois,IL,16.5,9100
+2014,Indiana,IN,22.9,5540
+2014,Iowa,IA,18.5,2330
+2014,Kansas,KS,18.1,1900
+2014,Kentucky,KY,26.2,4690
+2014,Louisiana,LA,24,3470
+2014,Maine,ME,19.3,1400
+2014,Maryland,MD,14.6,3990
+2014,Massachusetts,MA,14.7,4930
+2014,Michigan,MI,21.2,8090
+2014,Minnesota,MN,16.3,3070
+2014,Mississippi,MS,23,2420
+2014,Missouri,MO,20.6,5370
+2014,Montana,MT,19.9,760
+2014,Nebraska,NE,17.3,1220
+2014,Nevada,NV,17,2040
+2014,New Hampshire,NH,17.5,250
+2014,New Jersey,NJ,15.1,1560
+2014,New Mexico,NM,19.1,370
+2014,New York,NY,14.4,3460
+2014,North Carolina,NC,19.1,1550
+2014,North Dakota,ND,19.9,130
+2014,Ohio,OH,21,9760
+2014,Oklahoma,OK,21.1,3320
+2014,Oregon,OR,17,2950
+2014,Pennsylvania,PA,19.9,10290
+2014,Rhode Island,RI,16.3,180
+2014,South Carolina,SD,21.5,790
+2014,South Dakota,SD,18.6,160
+2014,Tennessee,TN,24.2,5980
+2014,Texas,TX,14.5,14890
+2014,Utah,UT,9.7,650
+2014,Vermont,VT,16.4,550
+2014,Virginia,VA,19.5,5580
+2014,Washington,WA,15.3,4630
+2014,West Virginia,WV,26.7,330
+2014,Wisconsin,WI,17.4,4020
+2014,Wyoming,WY,19.5,330
+2015,Alabama,AL,21.4,4150
+2015,Alaska,AK,19.1,420
+2015,Arizona,AZ,14,3740
+2015,Arkansas,AR,24.9,2620
+2015,California,CA,11.7,18430
+2015,Colorado,CO,15.6,2560
+2015,Connecticut,CT,13.5,2870
+2015,Delaware,DE,17.4,860
+2015,Florida,FL,15.8,16810
+2015,Georgia,GA,17.7,6460
+2015,Hawaii,HI,14.1,890
+2015,Idaho,ID,13.8,910
+2015,Illinois,IL,15.1,8920
+2015,Indiana,IN,20.6,5510
+2015,Iowa,IA,18.1,2440
+2015,Kansas,KS,17.7,1930
+2015,Kentucky,KY,25.9,4680
+2015,Louisiana,LA,21.9,3380
+2015,Maine,ME,19.5,1360
+2015,Maryland,MD,15.1,3980
+2015,Massachusetts,MA,14,5150
+2015,Michigan,MI,20.7,8350
+2015,Minnesota,MN,16.2,3250
+2015,Mississippi,MS,22.5,2340
+2015,Missouri,MO,22.3,5380
+2015,Montana,MT,18.9,760
+2015,Nebraska,NE,17.1,1200
+2015,Nevada,NV,17.5,1770
+2015,New Hampshire,NH,15.9,260
+2015,New Jersey,NJ,13.5,1610
+2015,New Mexico,NM,17.5,360
+2015,New York,NY,15.2,3630
+2015,North Carolina,NC,19,1660
+2015,North Dakota,ND,18.7,140
+2015,Ohio,OH,21.6,10000
+2015,Oklahoma,OK,22.2,3220
+2015,Oregon,OR,17.1,2830
+2015,Pennsylvania,PA,18.1,10540
+2015,Rhode Island,RI,15.5,180
+2015,South Carolina,SD,19.7,820
+2015,South Dakota,SD,20.1,170
+2015,Tennessee,TN,21.9,6200
+2015,Texas,TX,15.2,13650
+2015,Utah,UT,9.1,660
+2015,Vermont,VT,16,570
+2015,Virginia,VA,16.5,5740
+2015,Washington,WA,15,4790
+2015,West Virginia,WV,25.7,380
+2015,Wisconsin,WI,17.3,4370
+2015,Wyoming,WY,19.1,320
+2016,Alabama,AL,21.5,4220
+2016,Alaska,AK,19,440
+2016,Arizona,AZ,14.7,3980
+2016,Arkansas,AR,23.6,2610
+2016,California,CA,11,18140
+2016,Colorado,CO,15.6,2520
+2016,Connecticut,CT,13.3,2770
+2016,Delaware,DE,17.7,850
+2016,Florida,FL,15.5,17360
+2016,Georgia,GA,17.9,6670
+2016,Hawaii,HI,13.1,740
+2016,Idaho,ID,14.5,990
+2016,Illinois,IL,15.8,8820
+2016,Indiana,IN,21.1,5520
+2016,Iowa,IA,16.7,2420
+2016,Kansas,KS,17.2,1970
+2016,Kentucky,KY,24.5,4960
+2016,Louisiana,LA,22.8,3730
+2016,Maine,ME,19.8,1410
+2016,Maryland,MD,13.7,4100
+2016,Massachusetts,MA,13.6,4910
+2016,Michigan,MI,20.4,8440
+2016,Minnesota,MN,15.2,3660
+2016,Mississippi,MS,22.7,2550
+2016,Missouri,MO,22.1,5450
+2016,Montana,MT,18.5,750
+2016,Nebraska,NE,17,1220
+2016,Nevada,NV,16.5,1700
+2016,New Hampshire,NH,18,290
+2016,New Jersey,NJ,14,1870
+2016,New Mexico,NM,16.6,380
+2016,New York,NY,14.2,4490
+2016,North Carolina,NC,17.9,1870
+2016,North Dakota,ND,19.8,150
+2016,Ohio,OH,22.5,10550
+2016,Oklahoma,OK,19.6,3150
+2016,Oregon,OR,16.2,2970
+2016,Pennsylvania,PA,18,10500
+2016,Rhode Island,RI,14.4,210
+2016,South Carolina,SD,20,920
+2016,South Dakota,SD,18.1,180
+2016,Tennessee,TN,22.1,6010
+2016,Texas,TX,14.3,14620
+2016,Utah,UT,8.8,890
+2016,Vermont,VT,17,510
+2016,Virginia,VA,15.3,5690
+2016,Washington,WA,13.9,4670
+2016,West Virginia,WV,24.8,410
+2016,Wisconsin,WI,17.1,4230
+2016,Wyoming,WY,18.9,310
