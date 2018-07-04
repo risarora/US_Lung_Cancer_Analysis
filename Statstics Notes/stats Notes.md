@@ -1,18 +1,29 @@
 
-#### What are the strengths of AUC 
+#### What are the strengths of AUC
 
-Its two great strengths are, first, that AUC results do not change with changes in the incidents of the actual condition, nor is AUC affected by changes in the relative cost of the two different types of binary classification errors, false positives and false negatives. Therefore, when either future incidents or the cost of classification errors or both are unstable or cannot be known, the AUC is generally the best possible performance metric available. 
+Its two great strengths are, first, that AUC results do not change with changes in the incidents of the actual condition, nor is AUC affected by changes in the relative cost of the two different types of binary classification errors, false positives and false negatives. Therefore, when either future incidents or the cost of classification errors or both are unstable or cannot be known, the AUC is generally the best possible performance metric available.
 
 An AUC of one would be classification with zero errors, a theoretical ideal that no one expects you to meet. A normal good to very good area under the curve is typically in the .65 to .85 range.
 
 
-In the example spreadsheet, there are seven events numbered one through seven. In column B, rows 20 through 26. Each event must be assigned a score and an outcome if we are to generate an ROC curve. 
+In the example spreadsheet, there are seven events numbered one through seven. In column B, rows 20 through 26. Each event must be assigned a score and an outcome if we are to generate an ROC curve.
 
-Our model is a procedure or algorithm that inputs known data about an event and outputs a single score. 
+Our model is a procedure or algorithm that inputs known data about an event and outputs a single score.
+
+```
+
+I don't think any classification error metric is better than all the others, but I really like the AUC.
+
+I really prefer my error metrics to be interpretable. Simple accuracy is the easiest metric and is very interpretable, but becomes increasingly more useless the more unbalanced your classes are.
+
+It has a probabilistic interpretation without being sensitive to class imbalance.
+
+The AUC is always between 0 and 1. Given a random positive instance and a random negative instance, the AUC is the probability that you can identify who's who.
+```
 
 
 
-#### Stastics vs Machine Learning 
+#### Stastics vs Machine Learning
 Many methods from statistics and machine learning (ML) may, in principle, be used for both prediction and inference. However, statistical methods have a long-standing focus on inference, which is achieved through the creation and fitting of a project-specific probability model. The model allows us to compute a quantitative measure of confidence that a discovered relationship describes a 'true' effect that is unlikely to result from noise. Furthermore, if enough data are available, we can explicitly verify assumptions (e.g., equal variance) and refine the specified model, if needed.
 
 By contrast, ML concentrates on prediction by using general-purpose learning algorithms to find patterns in often rich and unwieldy data1,2. ML methods are particularly helpful when one is dealing with 'wide data', where the number of input variables exceeds the number of subjects, in contrast to 'long data', where the number of subjects is greater than that of input variables. ML makes minimal assumptions about the data-generating systems; they can be effective even when the data are gathered without a carefully controlled experimental design and in the presence of complicated nonlinear interactions. However, despite convincing prediction results, the lack of an explicit model can make ML solutions difficult to directly relate to existing biological knowledge.
@@ -31,7 +42,7 @@ https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-
 
 
 #### What is the best way to calculate the AUC of a ROC curve?
-#### How to Calculate AUC on c-statistics? 
+#### How to Calculate AUC on c-statistics?
 
 https://stats.stackexchange.com/questions/145566/how-to-calculate-area-under-the-curve-auc-or-the-c-statistic-by-hand
 
@@ -169,7 +180,7 @@ Harrell’s rms package can calculate various related concordance statistics usi
 
 > library(rms)
 > rcorr.cens(testres,truestat)[1]
-  C Index 
+  C Index
 0.8931711
 The caTools package
 Finally, we have the caTools package and its colAUC() function. It has a few advantages over other packages (mainly speed and the ability to work with multi-dimensional data – see ?colAUC) that can sometimes be helpful. But of course it gives the same answer as we have calculated over and over:
@@ -220,4 +231,35 @@ Neighbor-based approaches
 Synthesizing new examples: SMOTE and descendants
 Adjusting class weights
 New Algorithms
-	In 2014 Goh and Rudin published a paper Box Drawings for Learning with Imbalanced Data5 which introduced two algorithms for learning from data with skewed examples. These algorithms attempt to construct “boxes” (actually axis-parallel hyper-rectangles) around clusters of minority class 
+	In 2014 Goh and Rudin published a paper Box Drawings for Learning with Imbalanced Data5 which introduced two algorithms for learning from data with skewed examples. These algorithms attempt to construct “boxes” (actually axis-parallel hyper-rectangles) around clusters of minority class
+
+	
+
+##### How would you test if survey responses were filled at random by certain individuals, as opposed to truthful selections?
+Calculate Cronbach's alpha 
+
+
+
+
+
+
+
+
+
+
+
+What are the different types of Sampling methods that you have used?
+Explain the difference between bagged and boosting models.
+What is cross entropy?
+What is multi-collinearity, how do you fix it in a regression?
+
+
+139	59
+19	75
+
+igot11inHindi@8thb
+
+https://eng.uber.com/engineering-interview/
+https://medium.com/acing-ai/uber-ai-interview-questions-acing-the-ai-interview-9532794bc057
+https://www.kaggle.com/shikhar1/train-test-similarity
+https://www.coursera.org/lecture/analytics-excel/how-to-calculate-the-area-under-the-roc-curve-RkU17
