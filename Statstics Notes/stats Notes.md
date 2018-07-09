@@ -1,4 +1,3 @@
-
 #### What are the strengths of AUC
 
 Its two great strengths are, first, that AUC results do not change with changes in the incidents of the actual condition, nor is AUC affected by changes in the relative cost of the two different types of binary classification errors, false positives and false negatives. Therefore, when either future incidents or the cost of classification errors or both are unstable or cannot be known, the AUC is generally the best possible performance metric available.
@@ -23,7 +22,7 @@ The AUC is always between 0 and 1. Given a random positive instance and a random
 
 
 
-#### Stastics vs Machine Learning
+#### How will you define Stastics vs Machine Learning
 Many methods from statistics and machine learning (ML) may, in principle, be used for both prediction and inference. However, statistical methods have a long-standing focus on inference, which is achieved through the creation and fitting of a project-specific probability model. The model allows us to compute a quantitative measure of confidence that a discovered relationship describes a 'true' effect that is unlikely to result from noise. Furthermore, if enough data are available, we can explicitly verify assumptions (e.g., equal variance) and refine the specified model, if needed.
 
 By contrast, ML concentrates on prediction by using general-purpose learning algorithms to find patterns in often rich and unwieldy data1,2. ML methods are particularly helpful when one is dealing with 'wide data', where the number of input variables exceeds the number of subjects, in contrast to 'long data', where the number of subjects is greater than that of input variables. ML makes minimal assumptions about the data-generating systems; they can be effective even when the data are gathered without a carefully controlled experimental design and in the presence of complicated nonlinear interactions. However, despite convincing prediction results, the lack of an explicit model can make ML solutions difficult to directly relate to existing biological knowledge.
@@ -208,7 +207,8 @@ If have a model with both good calibration and good discrimination, then you sta
 
 
 https://www.svds.com/tbt-learning-imbalanced-classes/
-What should I do when my data is imbalanced? This has no definite answer for the same reason that the general question Which learning algorithm is best? has no definite answer: it depends on the data.
+What should I do when my data is imbalanced? 
+This has no definite answer for the same reason that the general question Which learning algorithm is best? has no definite answer: it depends on the data.
 
 That said, here is a rough outline of useful approaches. These are listed approximately in order of effort:
 
@@ -253,13 +253,51 @@ Explain the difference between bagged and boosting models.
 What is cross entropy?
 What is multi-collinearity, how do you fix it in a regression?
 
+What are collinearity and multicollinearity?
 
-139	59
-19	75
+When Can You Safely Ignore Multicollinearity?
 
-igot11inHindi@8thb
+139.59.19.75
+
 
 https://eng.uber.com/engineering-interview/
 https://medium.com/acing-ai/uber-ai-interview-questions-acing-the-ai-interview-9532794bc057
 https://www.kaggle.com/shikhar1/train-test-similarity
 https://www.coursera.org/lecture/analytics-excel/how-to-calculate-the-area-under-the-roc-curve-RkU17
+
+
+
+
+
+
+
+
+Pandas now supports three types of multi-axis indexing.
+
+.loc is primarily label based, but may also be used with a boolean array. .loc will raise KeyError when the items are not found. Allowed inputs are:
+
+	* A single label, e.g. 5 or 'a' (Note that 5 is interpreted as a label of the index. This use is not an integer position along the index.).
+	* A list or array of labels ['a', 'b', 'c'].
+	* A slice object with labels 'a':'f' (Note that contrary to usual python slices, both the start and the stop are included, when present in the index! See Slicing with labels.).
+	* A boolean array
+	* A callable function with one argument (the calling Series, DataFrame or Panel) and that returns valid output for indexing (one of the above).
+
+
+.iloc is primarily integer position based (from 0 to length-1 of the axis), but may also be used with a boolean array. .iloc will raise IndexError if a requested indexer is out-of-bounds, except slice indexers which allow out-of-bounds indexing. (this conforms with Python/NumPy slice semantics). Allowed inputs are:
+
+	* An integer e.g. 5.
+	* A list or array of integers [4, 3, 0].
+	* A slice object with ints 1:7.
+	* A boolean array.
+	* A callable function with one argument (the calling Series, DataFrame or Panel) and that returns valid output for indexing (one of the above).
+
+
+See more at Selection by Position, Advanced Indexing and Advanced Hierarchical.
+
+.loc, .iloc, and also [] indexing can accept a callable as indexer. See more at Selection By Callable.
+
+Getting values from an object with multi-axes selection uses the following notation (using .loc as an example, but the following applies to .iloc as well). Any of the axes accessors may be the null slice :. Axes left out of the specification are assumed to be :, e.g. p.loc['a'] is equivalent to p.loc['a', :, :].
+
+
+https://www.datarobot.com/wiki/target-leakage/
+https://stats.stackexchange.com/questions/20010/how-can-i-help-ensure-testing-data-does-not-leak-into-training-data
